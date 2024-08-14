@@ -1,0 +1,58 @@
+
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.container{
+     h1
+        {
+            text-decoration: dashed;
+            color: rgb(34, 34, 84);
+        }
+    font-size:23px;
+    width: 800px;
+    height: 1300px;
+}
+
+#link{
+    border: rgb(13, 13, 14) 8px solid;
+
+    display: flex;
+    justify-content: center; 
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-size: 35px;    
+    -webkit-text-stroke: 2px black;
+    padding: 20px;
+    margin-top: 33px;
+    text-wrap:nowrap;
+    background: linear-gradient(to bottom, rgb(64, 103, 121), rgb(13, 13, 29));
+    box-shadow: 0px 10px 13px rgb(10, 10, 22);
+    transition: 0.5s;
+}
+#link:hover{
+    transition: 0.3s;
+    transform: rotate(2.5deg);
+    font-size: 50px;
+}
+
+
+
+
+.vetores{
+    justify-content: center;
+    display: flex;
+    
+}
+.vetor1{
+    margin: 30px;
+}
+.vetor2{
+    margin: 30px;
+}
+
